@@ -1,9 +1,9 @@
 <?php
 $barang = [
-    ['nama' => 'Sepatu Adidas', 'harga' => 100000],
-    ['nama' => 'Sepatu Puma', 'harga' => 500000],
-    ['nama' => 'Sepatu Nike', 'harga' => 300000],
-    ['nama' => 'Sendal', 'harga' => 100000]
+    ['nama' => 'sleeping beauty', 'harga' => 100000],
+    ['nama' => 'The secret garden', 'harga' => 120000],
+    ['nama' => 'The paris apartmen', 'harga' => 110000],
+    ['nama' => 'A little princess', 'harga' => 130000]
 ];
 
 $hasil = null;
@@ -29,12 +29,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Katalog Barang</title>
+    <title>Katalog Buku</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <h2>Katalog Barang</h2>
+    <h2>Katalog Buku</h2>
     <div class="grid">
         <?php foreach ($barang as $i => $b) : ?>
             <div class="item">

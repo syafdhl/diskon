@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background: #e0f7ff; /* biru langit muda */
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+h2 {
+    color: #0077b6; /* biru laut */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.item {
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+button {
+    background: #00b4d8; /* tombol biru terang */
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0077b6; /* tombol biru gelap saat hover */
+}
+
+.result-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.result {
+    background: #caf0f8; /* latar hasil biru lembut */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

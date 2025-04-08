@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: #e0f7ff; /* biru langit muda */
+    background: #f39ee5; /* biru langit muda */
     margin: 0;
     padding: 30px;
     display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 h2 {
-    color: #0077b6; /* biru laut */
+    color: #b834a2; /* biru laut */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -41,7 +41,7 @@ h2 {
 }
 
 button {
-    background: #00b4d8; /* tombol biru terang */
+    background:  #ff93fa; /* tombol biru terang */
     color: white;
     border: none;
     padding: 8px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-    background: #0077b6; /* tombol biru gelap saat hover */
+    background: #ff31dd; /* tombol biru gelap saat hover */
 }
 
 .result-container {
@@ -59,11 +59,11 @@ button:hover {
     border-radius: 12px;
     max-width: 500px;
     margin: 0 auto 30px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(255, 69, 69, 0.1);
 }
 
 .result {
-    background: #caf0f8; /* latar hasil biru lembut */
+    background: #f8cff6; /* latar hasil biru lembut */
     padding: 15px;
     border-radius: 10px;
     margin-top: 10px;
